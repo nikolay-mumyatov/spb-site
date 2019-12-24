@@ -1,0 +1,71 @@
+
+@font-face{
+    src: url(/fonts/Nautilus.otf);
+    font-family: 'Nautilus';
+}
+
+@mixin wallpaper {
+    height: 100vh;
+    position: relative;
+}
+
+@mixin top {
+    max-width: 1150px;
+    min-height: 95vh;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+@mixin nav {
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@mixin top_info {
+    text-align: center;
+    position: relative;
+    & h2 {
+        color: black;
+        font-family: 'Nautilus';
+    }
+}
+
+@mixin button {
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;   
+    background: rgba(128, 128, 128, 0.044);
+    border: 4px inset rgba(205, 205, 205, 0.297);
+    color: black;
+    font-size: 16px;
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+    margin: 0 auto;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@mixin headline {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+@mixin strip {
+    background-color: rgb(254, 26, 98);
+    height: 2px;
+    width: 250px;
+    margin: 16px auto;
+}

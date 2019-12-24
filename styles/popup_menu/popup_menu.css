@@ -1,0 +1,144 @@
+@font-face {
+  src: url(/fonts/RobotoCondensed-Light.ttf);
+  font-family: 'Roboto';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Roboto';
+}
+
+.nav_d_n {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  top: 20px;
+  right: 25px;
+  z-index: 9;
+  cursor: pointer;
+}
+
+.nav_none {
+  position: absolute;
+  width: 40px;
+  height: 4px;
+  background: black;
+  top: 0;
+  right: 0;
+  margin: auto;
+  display: none;
+  cursor: pointer;
+}
+
+.nav_none:after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  background: black;
+  bottom: 12px;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+
+.nav_none:before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  background: black;
+  top: 12px;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+
+.nav_display {
+  height: 0;
+}
+
+.nav_display:after {
+  background: white;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  bottom: 0;
+  left: -2px;
+  -webkit-transform-origin: 20px 0;
+          transform-origin: 20px 0;
+  width: 40px;
+}
+
+.nav_display:before {
+  background: white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transform-origin: 20px 0;
+          transform-origin: 20px 0;
+  top: -3px;
+  width: 40px;
+}
+
+@media (min-width: 766px) {
+  .nav {
+    color: black;
+    top: 20px;
+  }
+  .nav_d_n {
+    display: none;
+  }
+}
+
+@media (max-width: 765px) {
+  .nav {
+    padding: 10px;
+    color: white;
+  }
+  .navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: rgba(0, 0, 0, 0.829);
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    height: 100vh;
+    z-index: 2;
+  }
+  .nav_none {
+    display: block;
+    position: fixed;
+    top: 38px;
+    right: 25px;
+    z-index: 9;
+  }
+}
+
+.up_arrow {
+  background: url(/images/up_arrow.png) center center/contain no-repeat;
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 20px;
+  left: 40px;
+  opacity: 0.3;
+  cursor: pointer;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.up_arrow:hover {
+  opacity: 0.7;
+}
+/*# sourceMappingURL=popup_menu.css.map */

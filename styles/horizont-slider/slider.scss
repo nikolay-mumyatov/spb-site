@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slide-wrapper {
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.slider {
+    display: flex;
+    height: 100%;
+    position: relative;
+    left: 0;
+}
+.slider-item {
+    min-width: 100%;
+    display: flex;
+}
+.slide-right {
+    right: 0vw;
+    background: url(../../images/right-arrow.png) no-repeat center center / contain;
+    opacity: 0.1;
+    position: absolute;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0.01);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.3;
+    }
+}
+.slide-left {
+    left: 0vw;
+    background: url(../../images/left-arrow.png) no-repeat center center / contain;
+    opacity: 0.1;
+    position: absolute;
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0.01);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.3;
+    }
+
+}
+
+
+.slider-item:nth-child(1),
+.slider-item:last-child {
+    background: url(../../images/photo_slider/1.jpg) no-repeat center top / cover;
+}
+.slider-item:nth-child(2) {
+    background: url(../../images/photo_slider/2.jpg) no-repeat top center / cover;
+}
+.slider-item:nth-child(3) {
+    background: url(../../images/photo_slider/3.jpg) no-repeat top center / cover;
+}
+.slider-item:nth-child(4) {
+    background: url(../../images/photo_slider/4.jpg) no-repeat top center / cover;
+}
+.slider-item:nth-child(5) {
+    background: url(../../images/photo_slider/5.jpg) no-repeat top center / cover;
+}
+.slider-item:nth-child(6) {
+    background: url(../../images/photo_slider/6.jpg) no-repeat top center / cover;
+}
+.slider-item:nth-child(7) {
+    background: url(../../images/photo_slider/7.jpg) no-repeat top center / cover;
+}
+.slider-item:nth-child(8) {
+    background: url(../../images/photo_slider/8.jpg) no-repeat top center / cover;
+}
+
+
+
+.slider-bottom {
+    height: 24px;
+    position: absolute;
+    bottom: 10px; 
+    .circle {
+        display: inline-block;
+        height: 100%;
+        width: 24px;
+        background: url(../../images/slider.png) center center / 24px;
+        background-repeat: no-repeat;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+    .circle:nth-child(2) {
+        margin-right: -4px;     // от куда то взялись 4px между первым и вторым элементами, пришлось задать margin
+    }
+}
+.circle-slider {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s all;
+}
+.picture {
+    max-width: 1100px;
+    min-height: 560px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+.arrow {
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    padding: 36px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 900px) {
+    .slide-left {
+        width: 15%;
+        opacity: 0.2;
+    }
+    .slide-right {
+        width: 15%;
+        opacity: 0.2;
+    }
+}

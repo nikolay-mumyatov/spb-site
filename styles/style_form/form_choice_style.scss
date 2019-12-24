@@ -1,0 +1,66 @@
+
+@import "../mixins/mixins.scss";
+
+@font-face{
+    src: url(/fonts/RobotoCondensed-Light.ttf);
+    font-family: 'Roboto';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto';
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 20px;
+
+    .nav {
+        @include nav();
+    }        
+}
+
+.form_page1 {
+    background: url(/images/images_services/1.jpg) center center / cover no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.form_page2 {
+    background: url(/images/images_services/2.jpg) center center / cover no-repeat;
+    height: 100vh;
+}
+
+.form_page3 {
+    background: url(/images/images_services/3.jpg) center center / cover no-repeat;
+    height: 100vh;
+}
+
+.form_page4 {
+    background: url(/images/images_services/4.jpg) center center / cover no-repeat;
+    height: 100vh;
+}
+
+.form_answer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.fone {
+    background: rgba(0, 0, 0, 0.366);
+    padding: 50px;
+    margin: auto;
+    max-height: 150px;
+    max-width: 700px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}

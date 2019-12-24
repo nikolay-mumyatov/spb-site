@@ -1,0 +1,289 @@
+
+@import "../mixins/mixins.scss";
+
+
+@font-face{
+    src: url(/fonts/RobotoCondensed-Light.ttf);
+    font-family: 'Roboto';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto';
+}
+
+
+// Верх страницы.
+
+.wallpaper {
+    position: relative;
+    height: 300px;
+    background: url(/images/images_contacts/top2.jpg) center center / cover no-repeat;
+
+    .top {
+        @include top();
+
+        .navigation {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            text-align: center;
+
+            .nav {
+                @include nav();
+            }        
+        }
+
+        .top_info {
+            @include top_info();
+            position: absolute;
+            top: 200px;
+        }
+    }
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.logo_div {
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+}
+
+.logo {
+    background: url(/images/logo.png) center center / contain no-repeat;
+    position: absolute;
+    top: -125px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+
+// Блок с информацией о контактах.
+
+.middle_contacts {
+    .headline {
+        @include headline();
+    }
+    .strip {
+        @include strip();
+    }
+}
+
+.middle_contacts {
+    max-width: 1100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    .text_contacts{
+        margin-top: 30px;
+        padding: 0vw 5vw 0vw 5vw;
+
+        p {
+            padding: 10px;
+        }
+    }
+}
+
+
+// Информация о персонале.
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin-top: 30px;
+}
+
+.flex_staff {
+    position: relative;
+    display: flex;
+    flex-basis: 300px;
+    margin: 0 auto;
+
+    .staff_text {
+        margin-left: 10px;
+
+        .staff_info {
+            text-align: left;
+            margin-bottom: 20px;
+            p {
+                font-size: 14px;
+            }
+        }
+        .staff_email {
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+
+}
+
+
+.staff_foto_1 {
+    background: url(/images/images_contacts/man.jpg) center center / cover no-repeat;
+    min-width: 135px;
+    min-height: 120px;
+    max-height: 120px;
+    border-right: 3px rgb(252, 72, 129) solid;
+    box-sizing: border-box;
+}
+
+.staff_foto_2 {
+    background: url(/images/images_contacts/woman.jpg) center center / cover no-repeat;
+    min-width: 135px;
+    min-height: 120px;
+    max-height: 120px;
+    border-right: 3px rgb(252, 72, 129) solid;
+    box-sizing: border-box;
+}
+
+
+
+// Контактные данные.
+
+.flex_2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.flex_contacts {
+    width: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    flex-basis: 300px;
+    
+    .contacts_icon {
+        margin-top: 30px;
+        min-width: 250px;
+    }
+}
+
+.contacts_adres, 
+.contacts_email,
+.contacts_tel {
+    padding-bottom: 15px;
+}
+
+.flex_contacts [class = "contacts_adres"]::before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    background: url(/images/placeholder.png) center center / cover no-repeat;
+    height: 20px;
+    width: 20px;
+}
+
+.flex_contacts [class = "contacts_email"]::before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    background: url(/images/mail.png) center center / cover no-repeat;
+    height: 20px;
+    width: 20px;
+}
+
+.flex_contacts [class = "contacts_tel"]::before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    background: url(/images/telephone.png) center center / cover no-repeat;
+    height: 20px;
+    width: 20px;
+}
+
+
+
+// Форма обратной связи.
+
+.form {
+    width: 50%;
+    flex-basis: 300px;
+    margin: 0 auto;
+
+    p {
+        padding: 10px;
+        padding-left: 0;
+    }
+}
+
+[type="text"], 
+[type="number"],
+[type="email"],
+[type="tel"],
+textarea {
+    box-sizing: border-box;
+    border: 2px inset rgb(152, 152, 152);
+    padding: 8px 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    flex-wrap: wrap;
+    outline: none;
+    box-sizing: border-box;
+    resize: none;
+}
+
+
+[type="submit"] {
+    box-sizing: border-box;
+    border: 2px inset rgb(152, 152, 152);
+    padding: 8px 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    flex-wrap: wrap;
+    outline: none;
+    background: rgba(255, 209, 219, 0.585);
+}
+
+
+// Медиазапросы.
+
+@media (max-width: 765px) {
+    [type="submit"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px){
+    .staff_foto_1 {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 475px) {
+    h1 {
+        font-size: 22px;
+    }
+    .top_info{
+        h2 {
+            font-size: 20px;
+        }
+    }
+    .flex_2 {
+    margin: 10px auto;
+    }
+
+    .flex_contacts {
+        margin-left: 60px;
+    }
+}

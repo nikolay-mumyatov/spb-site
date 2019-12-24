@@ -1,0 +1,180 @@
+@font-face {
+  src: url(/fonts/RobotoCondensed-Light.ttf);
+  font-family: 'Roboto';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Roboto';
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.footer .footer_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 5px;
+}
+
+.footer .footer_info h2 {
+  color: black;
+  font-size: 14px;
+}
+
+.footer .footer_info .footer_logo {
+  width: 33.3333%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer_info > div {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 240px;
+      flex-basis: 240px;
+  padding: 15px;
+}
+
+.logo_bottom_services {
+  background: url(/images/logo.png) center center/contain no-repeat;
+  width: 80px;
+  height: 80px;
+}
+
+.footer_logo p,
+.footer_contacts p,
+.footer_news p {
+  color: black;
+  position: relative;
+}
+
+.footer_contacts {
+  width: 33.3333%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-left: 30px;
+}
+
+.footer_contacts .contacts_icon {
+  margin-top: 20px;
+}
+
+.contacts_adres,
+.contacts_email,
+.contacts_tel {
+  padding-bottom: 15px;
+}
+
+.footer_contacts [class="contacts_adres"]::before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  background: url(/images/placeholder.png) center center/cover no-repeat;
+  height: 20px;
+  width: 20px;
+}
+
+.footer_contacts [class="contacts_email"]::before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  background: url(/images/mail.png) center center/cover no-repeat;
+  height: 20px;
+  width: 20px;
+}
+
+.footer_contacts [class="contacts_tel"]::before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  background: url(/images/telephone.png) center center/cover no-repeat;
+  height: 20px;
+  width: 20px;
+}
+
+.footer_news {
+  width: 33.3333%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer_news p {
+  margin-top: 10px;
+}
+
+.footer_news .footer_news_data .date {
+  color: #2558da;
+}
+
+.footer_bottom {
+  background: #393939;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  color: white;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer_bottom a {
+  height: 25px;
+  width: 25px;
+  margin: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer_bottom .fb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 10px;
+}
+
+.footer_bottom .fb .social_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer_bottom .fb .social_bottom .footer_bottom_fb {
+  background: url(/images/facebook.png) center center/cover no-repeat;
+}
+
+.footer_bottom .fb .social_bottom .footer_bottom_vk {
+  background: url(/images/vk.png) center center/cover no-repeat;
+}
+
+.footer_bottom .fb .social_bottom .footer_bottom_ins {
+  background: url(/images/instagram.png) center center/cover no-repeat;
+}
+
+.footer_bottom > div {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 240px;
+      flex-basis: 240px;
+}
+/*# sourceMappingURL=footer.css.map */

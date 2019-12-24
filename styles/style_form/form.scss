@@ -1,0 +1,21 @@
+
+@import "../mixins/mixins.scss";
+
+
+@font-face{
+    src: url(/fonts/RobotoCondensed-Light.ttf);
+    font-family: 'Roboto';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto';
+}
+
+.answer_form {
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACCA,UAAU;EACN,GAAG,EAAE,wBAAwB;EAC7B,WAAW,EAAE,UAAU;;;ADC3B,UAAU;EACN,GAAG,EAAE,qCAAqC;EAC1C,WAAW,EAAE,QAAQ;;;AAGzB,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,WAAW,EAAE,QAAQ;CACxB;;AAED,AAAA,YAAY,CAAC;EACT,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "form.scss",
+        "../mixins/mixins.scss"
+    ],
+    "names": [],
+    "file": "form.css"
+}

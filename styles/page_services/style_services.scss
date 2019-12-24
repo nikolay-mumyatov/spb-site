@@ -1,0 +1,236 @@
+
+@import "../mixins/mixins.scss";
+
+
+@font-face{
+    src: url(/fonts/RobotoCondensed-Light.ttf);
+    font-family: 'Roboto';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto';
+}
+
+// Верх страницы.
+
+.wallpaper {
+    position: relative;
+    height: 300px;
+    background: url(/images/images_services/wallpaper.jpg) center center / cover no-repeat;
+
+    .top {
+        min-height: 300px;
+        max-width: 1150px;
+        margin: 0 auto;
+        position: relative;
+        top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+        .navigation {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            text-align: center;
+
+            .nav {
+                @include nav();
+            }        
+        }
+
+        .top_info {
+            @include top_info();
+            position: absolute;
+            top: 200px;
+        }
+    }
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.logo_div {
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+}
+
+.logo {
+    background: url(/images/logo.png) center center / contain no-repeat;
+    position: absolute;
+    top: -125px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+// Блок информации об услугах.
+
+.middle_services {
+
+    .headline {
+    @include headline ();
+    }    
+    .strip {
+        @include strip();
+    }
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.flex_services_foto{
+    width: 50%;
+    flex-grow: 1;
+    flex-basis: 340px;
+}
+
+.flex_services_price {
+    background-color: rgba(254, 26, 98, 0.03);
+    width: 50%;
+    
+
+    p, ul, h2, h4 {
+        padding: 5px;
+        padding-left: 20px;
+    }
+
+    ul {
+        padding: 30px;
+    }
+
+    .price {
+        font-size: 30px;
+    }
+
+}
+
+
+// Фотографии.
+
+.flex_services_foto_1 {
+    background: url(/images/images_services/1.jpg) center center /  cover no-repeat;
+    min-height: 400px;
+}
+
+.flex_services_foto_2 {
+    background: url(/images/images_services/2.jpg) center center /  cover no-repeat;
+    min-height: 400px;
+}
+
+.flex_services_foto_3 {
+    background: url(/images/images_services/3.jpg) center center /  cover no-repeat;
+    min-height: 450px;
+}
+
+.flex_services_foto_4 {
+    background: url(/images/images_services/4.jpg) center center /  cover no-repeat;
+    min-height: 400px;
+}
+
+
+
+// Форма отправки запроса услуги.
+
+.form_choice {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    p {
+        padding: 10px;
+        font-size: 20px;
+    }
+    .form_service {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+[type="text"], 
+[type="number"],
+[type="email"],
+[type="tel"] {
+    box-sizing: border-box;
+    border: 2px inset rgb(152, 152, 152);
+    padding: 8px 10px;
+    margin-bottom: 8px;
+    width: 50%;
+    flex-wrap: wrap;
+    outline: none;
+}
+
+[type="radio"] {
+    margin: 10px;
+}
+
+[type="submit"] {
+    box-sizing: border-box;
+    border: 2px inset rgb(152, 152, 152);
+    padding: 8px 10px;
+    text-align: center;
+    width: 50%;
+    flex-wrap: wrap;
+    outline: none;
+    background: rgba(255, 209, 219, 0.585);
+}
+
+
+
+@media (max-width: 765px) {
+    .flex {
+
+    .flex_services_foto:nth-of-type(8) {order: 1};
+    .flex_services_price:nth-of-type(7) {order: 2};
+
+    .flex_services_foto:nth-of-type(6) {order: 4};
+    .flex_services_price:nth-of-type(5) {order: 3};
+
+    .flex_services_foto:nth-of-type(4) {order: 5};
+    .flex_services_price:nth-of-type(3) {order: 6};
+
+    .flex_services_foto:nth-of-type(2) {order: 8};
+    .flex_services_price:nth-of-type(1) {order: 7};
+
+    }
+
+
+    .flex_services_price {
+        background-color: rgba(254, 26, 98, 0.057);
+        width: 100%;
+    
+        h2 {
+            font-size: 18px;
+            padding: 3vw;
+        } 
+        h4 {
+            font-size: 14px;
+            padding: 2vw;
+        } 
+        p, ul {
+            font-size: 12px;
+            padding: 3vw;
+        }
+    
+        ul {
+            padding-left: 30px;
+        }
+    }
+}

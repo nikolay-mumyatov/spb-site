@@ -1,0 +1,84 @@
+@font-face {
+  src: url(/fonts/Nautilus.otf);
+  font-family: 'Nautilus';
+}
+
+@font-face {
+  src: url(/fonts/RobotoCondensed-Light.ttf);
+  font-family: 'Roboto';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Roboto';
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.navigation .nav {
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.form_page1 {
+  background: url(/images/images_services/1.jpg) center center/cover no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.form_page2 {
+  background: url(/images/images_services/2.jpg) center center/cover no-repeat;
+  height: 100vh;
+}
+
+.form_page3 {
+  background: url(/images/images_services/3.jpg) center center/cover no-repeat;
+  height: 100vh;
+}
+
+.form_page4 {
+  background: url(/images/images_services/4.jpg) center center/cover no-repeat;
+  height: 100vh;
+}
+
+.form_answer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90%;
+}
+
+.fone {
+  background: rgba(0, 0, 0, 0.366);
+  padding: 50px;
+  margin: auto;
+  max-height: 150px;
+  max-width: 700px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+}
+/*# sourceMappingURL=form_choice_style.css.map */

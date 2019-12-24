@@ -1,0 +1,158 @@
+
+@font-face{
+    src: url(/fonts/RobotoCondensed-Light.ttf);
+    font-family: 'Roboto';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto';
+}
+
+// Футтер страницы.
+
+.footer {
+    margin-top: 20px;
+    
+        .footer_info {
+            display: flex;
+            margin: 0 auto;
+            max-width: 1100px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 5px;
+            & h2 {
+                color: rgb(0, 0, 0);
+                font-size: 14px;
+            }
+            .footer_logo {
+                width: 33.3333%;
+                box-sizing: border-box;
+            }
+        }   
+    }
+    
+    .footer_info > div {
+        flex-grow: 1;
+        flex-basis: 240px;
+        padding: 15px;
+    }
+    
+    .logo_bottom_services {
+        background: url(/images/logo.png) center center / contain no-repeat;
+        width: 80px;
+        height: 80px;
+    }
+    
+    .footer_logo p, 
+    .footer_contacts p, 
+    .footer_news p {
+        color: rgb(0, 0, 0);
+        position: relative;
+    }
+    
+    .footer_contacts {
+        width: 33.3333%;
+        box-sizing: border-box;
+        margin-left: 30px;
+        
+        .contacts_icon {
+            margin-top: 20px;
+        }
+    }
+    
+    .contacts_adres, 
+    .contacts_email,
+    .contacts_tel {
+        padding-bottom: 15px;
+    }
+    
+    .footer_contacts [class = "contacts_adres"]::before {
+        content: "";
+        position: absolute;
+        left: -30px;
+        background: url(/images/placeholder.png) center center / cover no-repeat;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .footer_contacts [class = "contacts_email"]::before {
+        content: "";
+        position: absolute;
+        left: -30px;
+        background: url(/images/mail.png) center center / cover no-repeat;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .footer_contacts [class = "contacts_tel"]::before {
+        content: "";
+        position: absolute;
+        left: -30px;
+        background: url(/images/telephone.png) center center / cover no-repeat;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .footer_news {
+        width: 33.3333%;
+        box-sizing: border-box;
+        & p {
+            margin-top: 10px;
+        }
+    
+        .footer_news_data {
+            .date {
+                color: rgb(37, 88, 218);
+            }
+        }
+    }
+    
+    
+    
+    //Дно страницы.
+    
+    .footer_bottom {
+        background: rgb(57, 57, 57);
+        display: flex;
+        margin: 0 auto;
+        color: white;
+        flex-wrap: wrap;
+        & a {
+            height: 25px;
+            width: 25px;
+            margin: 5px;
+            box-sizing: border-box;
+        }
+        .fb {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 10px;
+    
+            .social_bottom {
+                display: flex;
+                flex-wrap: wrap;
+                
+                .footer_bottom_fb {
+                    background: url(/images/facebook.png) center center / cover no-repeat;
+                }
+                
+                .footer_bottom_vk {
+                    background: url(/images/vk.png) center center / cover no-repeat;
+                }
+                
+                .footer_bottom_ins {
+                    background: url(/images/instagram.png) center center / cover no-repeat;
+                }
+            }
+        }
+    }
+    
+    .footer_bottom > div {
+        flex-grow: 1;
+        flex-basis: 240px;
+    }
+    
