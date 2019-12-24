@@ -1,17 +1,17 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . '/blocks/head.php');
+include($_SERVER['DOCUMENT_ROOT'] . '/spb-site/blocks/head.php');
 ?>
 
 <head>
-    <link rel="stylesheet" href="/styles/popup_menu/popup_menu.css">
-    <link rel="stylesheet" href="/styles/page_services/style_services.css">
-    <link rel="stylesheet" href="/styles/footer_style/footer.css">
+    <link rel="stylesheet" href="styles/popup_menu/popup_menu.css">
+    <link rel="stylesheet" href="styles/page_services/style_services.css">
+    <link rel="stylesheet" href="styles/footer_style/footer.css">
 
 </head>
 
 <body>
     <?php
-    include($_SERVER['DOCUMENT_ROOT'] . '/blocks/top.php');
+    include($_SERVER['DOCUMENT_ROOT'] . '/spb-site/blocks/top.php');
     ?>
     <div class="top_info">
         <div class="logo">
@@ -107,5 +107,5 @@ include($_SERVER['DOCUMENT_ROOT'] . '/blocks/head.php');
     <!-- </div> -->
 
     <?php
-    include($_SERVER['DOCUMENT_ROOT'] . '/blocks/footer.php');
+    include($_SERVER['DOCUMENT_ROOT'] . '/spb-site/blocks/footer.php');
     ?>

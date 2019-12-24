@@ -1,5 +1,5 @@
 @font-face {
-  src: url(/fonts/RobotoCondensed-Light.ttf);
+  src: url(../../fonts/RobotoCondensed-Light.ttf);
   font-family: 'Roboto';
 }
 
@@ -126,7 +126,7 @@
 }
 
 .up_arrow {
-  background: url(/images/up_arrow.png) center center/contain no-repeat;
+  background: url(../../images/up_arrow.png) center center/contain no-repeat;
   width: 40px;
   height: 40px;
   position: fixed;

@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face {
-  src: url(/fonts/Nautilus.otf);
+  src: url(../../fonts/Nautilus.otf);
   font-family: 'Nautilus';
 }
 
 @font-face {
-  src: url(/fonts/Nautilus.otf);
+  src: url(../../fonts/Nautilus.otf);
   font-family: 'Nautilus';
 }
 
@@ -36,7 +36,7 @@
 .wallpaper {
   height: 100vh;
   position: relative;
-  background: url(/images/background-service.jpg) center center/cover no-repeat;
+  background: url(../../images/background-service.jpg) center center/cover no-repeat;
 }
 
 .wallpaper::before {
@@ -124,7 +124,7 @@
 }
 
 .logo {
-  background: url(/images/logo.png) center center/contain no-repeat;
+  background: url(../../images/logo.png) center center/contain no-repeat;
   min-width: 80px;
   height: 80px;
 }
@@ -156,12 +156,12 @@ h1 {
 }
 
 .color_body {
-  background: url(/images/grey_abstract.jpg) center center/cover no-repeat;
+  background: url(../../images/grey_abstract.jpg) center center/cover no-repeat;
   padding-bottom: 30px;
 }
 
 .color_bottom {
-  background: url(/images/abstract_bottom.jpg) center center/cover no-repeat;
+  background: url(../../images/abstract_bottom.jpg) center center/cover no-repeat;
   margin-top: -20px;
 }
 
@@ -225,42 +225,42 @@ h1 {
 }
 
 .flex .flex_item .flex_item_img .img_1 {
-  background: url(/images/map.svg) center center/contain no-repeat;
+  background: url(../../images/map.svg) center center/contain no-repeat;
   width: 50px;
   height: 50px;
   margin: 20px auto;
 }
 
 .flex .flex_item .flex_item_img .img_2 {
-  background: url(/images/roof.svg) center center/contain no-repeat;
+  background: url(../../images/roof.svg) center center/contain no-repeat;
   width: 50px;
   height: 50px;
   margin: 20px auto;
 }
 
 .flex .flex_item .flex_item_img .img_3 {
-  background: url(/images/night.svg) center center/contain no-repeat;
+  background: url(../../images/night.svg) center center/contain no-repeat;
   width: 50px;
   height: 50px;
   margin: 20px auto;
 }
 
 .flex .flex_item .flex_item_img .img_4 {
-  background: url(/images/bridge.svg) center center/contain no-repeat;
+  background: url(../../images/bridge.svg) center center/contain no-repeat;
   width: 50px;
   height: 50px;
   margin: 20px auto;
 }
 
 .flex .flex_item .flex_item_img .img_5 {
-  background: url(/images/network.svg) center center/contain no-repeat;
+  background: url(../../images/network.svg) center center/contain no-repeat;
   width: 50px;
   height: 50px;
   margin: 20px auto;
 }
 
 .flex .flex_item .flex_item_img .img_6 {
-  background: url(/images/party-dj.svg) center center/contain no-repeat;
+  background: url(../../images/party-dj.svg) center center/contain no-repeat;
   width: 50px;
   height: 50px;
   margin: 20px auto;
@@ -294,7 +294,7 @@ h1 {
 }
 
 .wrapper_mid .we_img {
-  background: url(/images/we_foto.jpg) center center/cover no-repeat;
+  background: url(../../images/we_foto.jpg) center center/cover no-repeat;
   width: 50%;
   min-height: 300px;
 }

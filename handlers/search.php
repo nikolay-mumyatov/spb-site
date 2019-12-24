@@ -75,7 +75,7 @@
         </div>
     </div>
 
-<script src="/javascript/vanilla.js"></script>
+<!-- <script src="/javascript/vanilla.js"></script> -->
 
 <?php        
     include($_SERVER['DOCUMENT_ROOT'] . '/blocks/footer.php');

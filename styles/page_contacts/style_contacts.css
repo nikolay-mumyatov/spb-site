@@ -1,10 +1,10 @@
 @font-face {
-  src: url(/fonts/Nautilus.otf);
+  src: url(../../fonts/Nautilus.otf);
   font-family: 'Nautilus';
 }
 
 @font-face {
-  src: url(/fonts/RobotoCondensed-Light.ttf);
+  src: url(../../fonts/RobotoCondensed-Light.ttf);
   font-family: 'Roboto';
 }
 
@@ -18,7 +18,7 @@
 .wallpaper {
   position: relative;
   height: 300px;
-  background: url(/images/images_contacts/top2.jpg) center center/cover no-repeat;
+  background: url(../../images/images_contacts/top2.jpg) center center/cover no-repeat;
 }
 
 .wallpaper .top {
@@ -86,7 +86,7 @@
 }
 
 .logo {
-  background: url(/images/logo.png) center center/contain no-repeat;
+  background: url(../../images/logo.png) center center/contain no-repeat;
   position: absolute;
   top: -125px;
   right: 0;
@@ -170,7 +170,7 @@
 }
 
 .staff_foto_1 {
-  background: url(/images/images_contacts/man.jpg) center center/cover no-repeat;
+  background: url(../../images/images_contacts/man.jpg) center center/cover no-repeat;
   min-width: 135px;
   min-height: 120px;
   max-height: 120px;
@@ -180,7 +180,7 @@
 }
 
 .staff_foto_2 {
-  background: url(/images/images_contacts/woman.jpg) center center/cover no-repeat;
+  background: url(../../images/images_contacts/woman.jpg) center center/cover no-repeat;
   min-width: 135px;
   min-height: 120px;
   max-height: 120px;
@@ -227,7 +227,7 @@
   content: "";
   position: absolute;
   left: -30px;
-  background: url(/images/placeholder.png) center center/cover no-repeat;
+  background: url(../../images/placeholder.png) center center/cover no-repeat;
   height: 20px;
   width: 20px;
 }
@@ -236,7 +236,7 @@
   content: "";
   position: absolute;
   left: -30px;
-  background: url(/images/mail.png) center center/cover no-repeat;
+  background: url(../../images/mail.png) center center/cover no-repeat;
   height: 20px;
   width: 20px;
 }
@@ -245,7 +245,7 @@
   content: "";
   position: absolute;
   left: -30px;
-  background: url(/images/telephone.png) center center/cover no-repeat;
+  background: url(../../images/telephone.png) center center/cover no-repeat;
   height: 20px;
   width: 20px;
 }

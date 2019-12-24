@@ -1,19 +1,19 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT'] . '/blocks/head.php');
+include($_SERVER['DOCUMENT_ROOT'] . '/spb-site/blocks/head.php');
 ?>
 
 <head>
-    <link rel="stylesheet" href="/styles/page_contacts/style_contacts.css">
-    <link rel="stylesheet" href="/styles/footer_style/footer.css">
+    <link rel="stylesheet" href="styles/page_contacts/style_contacts.css">
+    <link rel="stylesheet" href="styles/footer_style/footer.css">
 </head>
 
 <body>
     <?php
-    include($_SERVER['DOCUMENT_ROOT'] . '/blocks/top.php');
+    include($_SERVER['DOCUMENT_ROOT'] . '/spb-site/blocks/top.php');
     ?>
     <div class="top_info">
         <div class="logo">
-            <a href="#"></a>
+            <a href="index.php"></a>
         </div>
         <div class="info_h2">
             <h2>Агенство интересных маршрутов</h2>
@@ -82,5 +82,5 @@ include($_SERVER['DOCUMENT_ROOT'] . '/blocks/head.php');
         </div>
     </div>
     <?php
-    include($_SERVER['DOCUMENT_ROOT'] . '/blocks/footer.php');
+    include($_SERVER['DOCUMENT_ROOT'] . '/spb-site/blocks/footer.php');
     ?>

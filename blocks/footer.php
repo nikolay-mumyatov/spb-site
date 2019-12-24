@@ -43,13 +43,13 @@
     </div>
     <a href="#up" class="up_arrow"></a>
 
-    <script src="/javascript/jquery-3.3.1.min.js"></script>
-    <script src="/javascript/services.js"></script>
-    <script src="/javascript/popup_menu.js"></script>
-    <script src="/javascript/slider.js"></script>
-    <script src="/javascript/main.js"></script>
-    <script src="/javascript/contacts.js"></script>
-    <script src="/javascript/vanilla.js"></script>
+    <script src="javascript/jquery-3.3.1.min.js"></script>
+    <script src="javascript/services.js"></script>
+    <script src="javascript/popup_menu.js"></script>
+    <script src="javascript/slider.js"></script>
+    <script src="javascript/main.js"></script>
+    <script src="javascript/contacts.js"></script>
+    <!-- <script src="javascript/vanilla.js"></script> -->
     
     
     

@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/styles/page_index/style.css">
-    <link rel="stylesheet" href="/styles/horizont-slider/slider.css">
-    <link rel="stylesheet" href="/styles/popup_menu/popup_menu.css">
-    <link rel="stylesheet" href="/styles/footer_style/footer.css">
+    <link rel="stylesheet" href="styles/page_index/style.css">
+    <link rel="stylesheet" href="styles/horizont-slider/slider.css">
+    <link rel="stylesheet" href="styles/popup_menu/popup_menu.css">
+    <link rel="stylesheet" href="styles/footer_style/footer.css">
     <title>SP</title>
 </head>
 
@@ -20,11 +20,11 @@
                     <a href="#" class="logo"></a>
                 </div>
                 <div class="navigation">
-                    <a href="/index.php" class="nav">Главная</a>
-                    <a href="/services.php" class="nav">Наши услуги</a>
-                    <a href="/index.php#company" class="nav">О компании</a>
-                    <a href="/contacts.php" class="nav">Контакты</a>
-                    <a href="/index.php#feedback" class="nav">Отзывы</a>
+                    <a href="index.php" class="nav">Главная</a>
+                    <a href="services.php" class="nav">Наши услуги</a>
+                    <a href="index.php#company" class="nav">О компании</a>
+                    <a href="contacts.php" class="nav">Контакты</a>
+                    <a href="index.php#feedback" class="nav">Отзывы</a>
                 </div>
                 <div class="nav_d_n">
                     <div class="nav_display">
@@ -184,7 +184,7 @@
                         и с детства искушенная на интересные события - была сильно увлечена.
                     </p>
                     <div class="feedback_people">
-                        <img src="/images/feedback_photo/test2.jpg" alt="">
+                        <img src="images/feedback_photo/test2.jpg" alt="">
                         <div>Екатерина Васильева</div>
                     </div>
                 </div>
@@ -196,7 +196,7 @@
                         Огромное спасибо!
                     </p>
                     <div class="feedback_people">
-                        <img src="/images/feedback_photo/test1.jpg" alt="">
+                        <img src="images/feedback_photo/test1.jpg" alt="">
                         <div>Анна Крушевская</div>
                     </div>
                 </div>
@@ -206,7 +206,7 @@
             <h2 class="headline">Напишите нам</h2>
             <div class="strip"></div>
             <div class="question_form">
-                <form method="POST" action="/handlers/form.php">
+                <form method="POST" action="handlers/form.php">
                     <div class="form_blocks">
                         <div class="form_question_block">
                             <input type="text" name="fio" placeholder="ФИО">
@@ -228,5 +228,5 @@
         </div>
 
         <?php
-        include($_SERVER['DOCUMENT_ROOT'] . '/blocks/footer.php');
+        include($_SERVER['DOCUMENT_ROOT'] . '/spb-site/blocks/footer.php');
         ?>

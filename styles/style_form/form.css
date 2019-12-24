@@ -1,10 +1,10 @@
 @font-face {
-  src: url(/fonts/Nautilus.otf);
+  src: url(../../fonts/Nautilus.otf);
   font-family: 'Nautilus';
 }
 
 @font-face {
-  src: url(/fonts/RobotoCondensed-Light.ttf);
+  src: url(../../fonts/RobotoCondensed-Light.ttf);
   font-family: 'Roboto';
 }
 

@@ -1,6 +1,6 @@
 
 @font-face{
-    src: url(/fonts/RobotoCondensed-Light.ttf);
+    src: url(../../fonts/RobotoCondensed-Light.ttf);
     font-family: 'Roboto';
 }
 
@@ -41,7 +41,7 @@
     }
     
     .logo_bottom_services {
-        background: url(/images/logo.png) center center / contain no-repeat;
+        background: url(../../images/logo.png) center center / contain no-repeat;
         width: 80px;
         height: 80px;
     }
@@ -73,7 +73,7 @@
         content: "";
         position: absolute;
         left: -30px;
-        background: url(/images/placeholder.png) center center / cover no-repeat;
+        background: url(../../images/placeholder.png) center center / cover no-repeat;
         height: 20px;
         width: 20px;
     }
@@ -82,7 +82,7 @@
         content: "";
         position: absolute;
         left: -30px;
-        background: url(/images/mail.png) center center / cover no-repeat;
+        background: url(../../images/mail.png) center center / cover no-repeat;
         height: 20px;
         width: 20px;
     }
@@ -91,7 +91,7 @@
         content: "";
         position: absolute;
         left: -30px;
-        background: url(/images/telephone.png) center center / cover no-repeat;
+        background: url(../../images/telephone.png) center center / cover no-repeat;
         height: 20px;
         width: 20px;
     }
@@ -137,15 +137,15 @@
                 flex-wrap: wrap;
                 
                 .footer_bottom_fb {
-                    background: url(/images/facebook.png) center center / cover no-repeat;
+                    background: url(../../images/facebook.png) center center / cover no-repeat;
                 }
                 
                 .footer_bottom_vk {
-                    background: url(/images/vk.png) center center / cover no-repeat;
+                    background: url(../../images/v_k.png) center center / cover no-repeat;
                 }
                 
                 .footer_bottom_ins {
-                    background: url(/images/instagram.png) center center / cover no-repeat;
+                    background: url(../../images/instagram.png) center center / cover no-repeat;
                 }
             }
         }

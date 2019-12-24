@@ -1,10 +1,10 @@
 @font-face {
-  src: url(/fonts/Nautilus.otf);
+  src: url(../../fonts/Nautilus.otf);
   font-family: 'Nautilus';
 }
 
 @font-face {
-  src: url(/fonts/RobotoCondensed-Light.ttf);
+  src: url(../../fonts/RobotoCondensed-Light.ttf);
   font-family: 'Roboto';
 }
 
@@ -18,7 +18,7 @@
 .wallpaper {
   position: relative;
   height: 300px;
-  background: url(/images/images_services/wallpaper.jpg) center center/cover no-repeat;
+  background: url(../../images/images_services/wallpaper.jpg) center center/cover no-repeat;
 }
 
 .wallpaper .top {
@@ -86,7 +86,7 @@
 }
 
 .logo {
-  background: url(/images/logo.png) center center/contain no-repeat;
+  background: url(../../images/logo.png) center center/contain no-repeat;
   position: absolute;
   top: -125px;
   right: 0;
@@ -150,22 +150,22 @@
 }
 
 .flex_services_foto_1 {
-  background: url(/images/images_services/1.jpg) center center/cover no-repeat;
+  background: url(../../images/images_services/1.jpg) center center/cover no-repeat;
   min-height: 400px;
 }
 
 .flex_services_foto_2 {
-  background: url(/images/images_services/2.jpg) center center/cover no-repeat;
+  background: url(../../images/images_services/2.jpg) center center/cover no-repeat;
   min-height: 400px;
 }
 
 .flex_services_foto_3 {
-  background: url(/images/images_services/3.jpg) center center/cover no-repeat;
+  background: url(../../images/images_services/3.jpg) center center/cover no-repeat;
   min-height: 450px;
 }
 
 .flex_services_foto_4 {
-  background: url(/images/images_services/4.jpg) center center/cover no-repeat;
+  background: url(../../images/images_services/4.jpg) center center/cover no-repeat;
   min-height: 400px;
 }
 
