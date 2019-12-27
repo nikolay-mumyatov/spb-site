@@ -155,24 +155,4 @@
         flex-grow: 1;
         flex-basis: 240px;
     }
-
-
-
-@media (max-width: 765px) {
-
-.footer_bottom {
-    & a {
-        height: 15px;
-        width: 15px;
-        margin: 2px;
-        box-sizing: border-box;
-    }
-}
-
-@media (max-width: 594px) {
-
-}
-
-@media (max-width: 475px) {
-
-}
+    

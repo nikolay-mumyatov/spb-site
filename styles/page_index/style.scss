@@ -387,3 +387,26 @@ textarea {
         }
     }
 }
+
+// Снежинки
+@keyframes flacke {
+    75% {
+        // opacity: 0.5;
+    }
+    100% {
+        transform: translate(0, 1000px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+
+.flacke {
+    animation: flacke 5s infinite;
+    background: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 999999;
+    top: 0;
+}
