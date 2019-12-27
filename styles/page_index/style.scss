@@ -361,11 +361,11 @@ textarea {
         color: black;
         font-size: 32px;
         padding-bottom: 10px;
-        font-family: 'Nautilus';
+        // font-family: 'Nautilus';
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .form_question_submit {
@@ -383,30 +383,30 @@ textarea {
     }
     .top_info{
         h2 {
-            font-size: 16px;
+            font-size: 12px;
         }
     }
 }
 
 // Снежинки
-@keyframes flacke {
-    75% {
-        // opacity: 0.5;
-    }
-    100% {
-        transform: translate(0, 1000px) rotate(360deg);
-        opacity: 0;
-    }
-}
+// @keyframes flacke {
+//     75% {
+//         // opacity: 0.5;
+//     }
+//     100% {
+//         transform: translate(0, 1000px) rotate(360deg);
+//         opacity: 0;
+//     }
+// }
 
 
-.flacke {
-    animation: flacke 5s infinite;
-    background: white;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 999999;
-    top: 0;
-}
+// .flacke {
+//     animation: flacke 5s infinite;
+//     background: white;
+//     width: 10px;
+//     height: 10px;
+//     border-radius: 50%;
+//     position: absolute;
+//     z-index: 999999;
+//     top: 0;
+// }

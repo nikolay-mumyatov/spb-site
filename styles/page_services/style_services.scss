@@ -47,6 +47,9 @@
             @include top_info();
             position: absolute;
             top: 200px;
+            .info_h2{
+                font-size: 11px;
+            }
         }
     }
 }
