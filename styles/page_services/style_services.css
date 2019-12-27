@@ -66,13 +66,9 @@
   top: 200px;
 }
 
-.wallpaper .top .top_infoh2 {
+.wallpaper .top .top_info h2 {
   color: black;
-  font-family: 'Roboto';
-}
-
-.wallpaper .top .top_info .info_h2 {
-  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
