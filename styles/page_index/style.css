@@ -483,36 +483,4 @@ textarea {
     font-size: 16px;
   }
 }
-
-@-webkit-keyframes flacke {
-  75% {
-  }
-  100% {
-    -webkit-transform: translate(0, 1000px) rotate(360deg);
-            transform: translate(0, 1000px) rotate(360deg);
-    opacity: 0;
-  }
-}
-
-@keyframes flacke {
-  75% {
-  }
-  100% {
-    -webkit-transform: translate(0, 1000px) rotate(360deg);
-            transform: translate(0, 1000px) rotate(360deg);
-    opacity: 0;
-  }
-}
-
-.flacke {
-  -webkit-animation: flacke 5s infinite;
-          animation: flacke 5s infinite;
-  background: white;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  position: absolute;
-  z-index: 999999;
-  top: 0;
-}
 /*# sourceMappingURL=style.css.map */
